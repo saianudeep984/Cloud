@@ -2370,6 +2370,11 @@
     "version" : "5.1.2",
     "status" : "noimpact"
   }, {
+    "id" : "org.talend.repository.model.migration.spark.AddKafkaExtraInfo",
+    "breaks" : "7.3.1",
+    "version" : "7.3.1",
+    "status" : "noimpact"
+  }, {
     "id" : "org.talend.repository.model.migration.spark.ChangeLocalModeForSparkConfiguration",
     "breaks" : "6.0.0",
     "version" : "6.1.0",
