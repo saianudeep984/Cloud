@@ -1,0 +1,15 @@
+package org.talend.survivorship.sample 
+
+rule "PLACE_OF_BIRTH"
+    no-loop true
+    dialect "mvel"
+    ruleflow-group "PLACE_OF_BIRTHGroup"
+when
+    $input : RecordIn( dataset.isLongest( place_of_birth, "PLACE_OF_BIRTH", false) )  
+then
+    dataset.survive( $input.TALEND_INTERNAL_ID, "PLACE_OF_BIRTH", drools.getRule().getName());
+
+
+end
+
+

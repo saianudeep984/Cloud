@@ -1,0 +1,15 @@
+package org.talend.survivorship.sample 
+
+rule "STREET"
+    no-loop true
+    dialect "mvel"
+    ruleflow-group "STREETGroup"
+when
+    $input : RecordIn( dataset.isMostCommon( street, "STREET", false) )  
+then
+    dataset.survive( $input.TALEND_INTERNAL_ID, "STREET", drools.getRule().getName());
+
+
+end
+
+

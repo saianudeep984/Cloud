@@ -1,0 +1,15 @@
+package org.talend.survivorship.sample 
+
+rule "BIRTHDATE"
+    no-loop true
+    dialect "mvel"
+    ruleflow-group "BIRTHDATEGroup"
+when
+    $input : RecordIn( dataset.isMostCommon( birthdate, "BIRTHDATE", false) )  
+then
+    dataset.survive( $input.TALEND_INTERNAL_ID, "BIRTHDATE", drools.getRule().getName());
+
+
+end
+
+

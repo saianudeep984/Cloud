@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:dataquality.indicators.sql="http://dataquality.indicators.sql" xmlns:dataquality.reports="http://dataquality.reports" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <dataquality.analysis:Analysis xmi:id="_JzqtEKxjEe2McvebbU8TZQ" name="Table_analysis_1" supplierDependency="_Rgo_0KxjEe2McvebbU8TZQ" creationDate="2023-02-14T17:58:57.816+0530">
+    <clientDependency href="../../metadata/connections/65_1_101_132_0.1.item#_NZEi8KxiEe2McvebbU8TZQ"/>
+    <clientDependency href="../../TDQ_Libraries/Rules/SQL/Demo_DQ_Rule_0.1.rules#_Jzr7MKxjEe2McvebbU8TZQ"/>
+    <taggedValue xmi:id="_JzqtEaxjEe2McvebbU8TZQ" tag="Status" value="development"/>
+    <taggedValue xmi:id="_JzqtEqxjEe2McvebbU8TZQ" tag="Author" value="jorawarsingh@nfr1.thinkartha.com"/>
+    <taggedValue xmi:id="_JzqtE6xjEe2McvebbU8TZQ" tag="Purpose"/>
+    <taggedValue xmi:id="_JzqtFKxjEe2McvebbU8TZQ" tag="Description"/>
+    <taggedValue xmi:id="_JzqtFaxjEe2McvebbU8TZQ" tag="Version" value="0.1"/>
+    <context xmi:id="_JzqtFqxjEe2McvebbU8TZQ">
+      <connection href="../../metadata/connections/65_1_101_132_0.1.item#_Dmbg0Kw5Ee2McvebbU8TZQ"/>
+      <analysedElements xsi:type="relational:TdTable" href="../../metadata/connections/65_1_101_132_0.1.item#_pvePTaxLEe2McvebbU8TZQ"/>
+    </context>
+    <results xmi:id="_JzqtF6xjEe2McvebbU8TZQ">
+      <resultMetadata xmi:id="_JzqtGKxjEe2McvebbU8TZQ"/>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_JzqtGaxjEe2McvebbU8TZQ">
+        <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/65_1_101_132_0.1.item#_pvePTaxLEe2McvebbU8TZQ"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators.sql:WhereRuleIndicator" xmi:id="_JzqtGqxjEe2McvebbU8TZQ">
+        <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/65_1_101_132_0.1.item#_pvePTaxLEe2McvebbU8TZQ"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Rules/SQL/Demo_DQ_Rule_0.1.rules#_hXIKcA-ZEd6qupbF9NyF4w"/>
+      </indicators>
+    </results>
+    <parameters xmi:id="_JzqtG6xjEe2McvebbU8TZQ" analysisType="Table Analysis"/>
+  </dataquality.analysis:Analysis>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_Rgo_0KxjEe2McvebbU8TZQ" kind="Usage" supplier="_JzqtEKxjEe2McvebbU8TZQ">
+    <client xsi:type="dataquality.reports:TdReport" href="../Reports/Pattern_Analysis_1_0.1.rep#_1XBpwKxiEe2McvebbU8TZQ"/>
+  </orgomg.cwm.objectmodel.core:Dependency>
+</xmi:XMI>
