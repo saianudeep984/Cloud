@@ -8,10 +8,6 @@
     "id" : "_ZEEJAJIMEe2CffAIN4jjiw - _ZJW4sJIMEe2CffAIN4jjiw - _ZJW4sZIMEe2CffAIN4jjiw",
     "version" : "Latest",
     "type" : "property"
-  }, {
-    "id" : "_-tclIJIMEe2CffAIN4jjiw",
-    "version" : "0.1",
-    "type" : "services"
   } ]
 }, {
   "baseItem" : {
@@ -73,21 +69,6 @@
     "id" : "built-in",
     "version" : "Latest",
     "type" : "context"
-  } ]
-}, {
-  "baseItem" : {
-    "id" : "_U05IsKfpEeutV6j50lH6xw",
-    "version" : "0.1",
-    "type" : "job"
-  },
-  "relatedItems" : [ {
-    "id" : "built-in",
-    "version" : "Latest",
-    "type" : "context"
-  }, {
-    "id" : "_fjQxQKgoEeuZCdZoE9dVJQ - metadata",
-    "version" : "Latest",
-    "type" : "schema"
   } ]
 }, {
   "baseItem" : {

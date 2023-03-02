@@ -1,2 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<softwaredeployment:TdSoftwareSystem xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:softwaredeployment="http://www.talend.org/cwm/foundation/softwaredeployment/2010" xmi:id="_D6gTYKw5Ee2McvebbU8TZQ" name="MariaDB" subtype="MariaDB" version="10.4.7-MariaDB"/>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:softwaredeployment="http://www.talend.org/cwm/foundation/softwaredeployment/2010">
+  <softwaredeployment:TdSoftwareSystem xmi:id="_D6gTYKw5Ee2McvebbU8TZQ" name="MariaDB" subtype="MariaDB" version="10.4.7-MariaDB"/>
+  <softwaredeployment:TdSoftwareSystem xmi:id="_xkJt4LZOEe2s6rjjx5q0dQ" name="MySQL" subtype="MySQL" version="5.5.59"/>
+</xmi:XMI>

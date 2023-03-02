@@ -6,19 +6,41 @@
   }, {
     "id" : "org.talend.bigdata.streaming.feature.feature.group"
   }, {
+    "id" : "org.talend.lite.amc.feature.feature.group"
+  }, {
+    "id" : "org.talend.lite.bd.cdh.x.feature.feature.group"
+  }, {
+    "id" : "org.talend.lite.bd.cdp.x.feature.feature.group"
+  }, {
     "id" : "org.talend.lite.bd.components.cosmosdb.feature.feature.group"
   }, {
     "id" : "org.talend.lite.bd.components.couchbase.feature.feature.group"
   }, {
     "id" : "org.talend.lite.bd.components.saphana.feature.feature.group"
   }, {
+    "id" : "org.talend.lite.bd.dbr.550.feature.feature.group"
+  }, {
+    "id" : "org.talend.lite.bd.dbr.640.feature.feature.group"
+  }, {
+    "id" : "org.talend.lite.bd.dbr.73x.feature.feature.group"
+  }, {
     "id" : "org.talend.lite.bd.dicomponents.feature.feature.group"
+  }, {
+    "id" : "org.talend.lite.bd.emr.5290.feature.feature.group"
+  }, {
+    "id" : "org.talend.lite.bd.emr.62x.feature.feature.group"
   }, {
     "id" : "org.talend.lite.bd.hadoopcluster.feature.group"
   }, {
     "id" : "org.talend.lite.bd.hbase.feature.feature.group"
   }, {
     "id" : "org.talend.lite.bd.hcatalog.feature.feature.group"
+  }, {
+    "id" : "org.talend.lite.bd.hdinsight.400.feature.feature.group"
+  }, {
+    "id" : "org.talend.lite.bd.hdp.x.feature.feature.group"
+  }, {
+    "id" : "org.talend.lite.bd.synapse.feature.feature.group"
   }, {
     "id" : "org.talend.lite.bd.universal24x.feature.feature.group"
   }, {
@@ -29,6 +51,8 @@
     "id" : "org.talend.lite.bd.universal32x.feature.feature.group"
   }, {
     "id" : "org.talend.lite.bd.universal33x.feature.feature.group"
+  }, {
+    "id" : "org.talend.lite.di.audit.feature.feature.group"
   }, {
     "id" : "org.talend.lite.di.cdc.feature.feature.group"
   }, {
@@ -46,13 +70,23 @@
   }, {
     "id" : "org.talend.lite.di.components.pe.feature.feature.group"
   }, {
+    "id" : "org.talend.lite.di.datalineage.feature.feature.group"
+  }, {
+    "id" : "org.talend.lite.di.docker.feature.feature.group"
+  }, {
     "id" : "org.talend.lite.di.edifact.feature.feature.group"
+  }, {
+    "id" : "org.talend.lite.di.importation.feature.feature.group"
+  }, {
+    "id" : "org.talend.lite.di.jobscript.feature.feature.group"
   }, {
     "id" : "org.talend.lite.di.jobtemplate.feature.feature.group"
   }, {
     "id" : "org.talend.lite.di.metadata.mdm.feature.feature.group"
   }, {
     "id" : "org.talend.lite.di.sap.feature.feature.group"
+  }, {
+    "id" : "org.talend.lite.di.validationrules.feature.feature.group"
   }, {
     "id" : "org.talend.lite.di.wsdl.feature.feature.group"
   }, {
@@ -63,6 +97,12 @@
     "id" : "org.talend.lite.dq.feature.feature.group"
   }, {
     "id" : "org.talend.lite.esb.apidesigner.feature.feature.group"
+  }, {
+    "id" : "org.talend.lite.metadata.bridge.feature.feature.group"
+  }, {
+    "id" : "org.talend.lite.tdm.core.feature.feature.group"
+  }, {
+    "id" : "org.talend.lite.tdm.spark.feature.feature.group"
   }, {
     "id" : "org.talend.studio.components.bd.bigtable.feature.feature.group"
   }, {
@@ -101,5 +141,33 @@
     "id" : "org.talend.studio.components.tcompv0.snowflakeee.feature.feature.group"
   }, {
     "id" : "org.talend.studio.components.tcompv0.splunk.feature.feature.group"
+  }, {
+    "id" : "org.talend.transform.standard.hl7v2.1.feature.feature.group"
+  }, {
+    "id" : "org.talend.transform.standard.hl7v2.2.feature.feature.group"
+  }, {
+    "id" : "org.talend.transform.standard.hl7v2.3.1.feature.feature.group"
+  }, {
+    "id" : "org.talend.transform.standard.hl7v2.3.feature.feature.group"
+  }, {
+    "id" : "org.talend.transform.standard.hl7v2.4.feature.feature.group"
+  }, {
+    "id" : "org.talend.transform.standard.hl7v2.5.1.feature.feature.group"
+  }, {
+    "id" : "org.talend.transform.standard.hl7v2.5.feature.feature.group"
+  }, {
+    "id" : "org.talend.transform.standard.hl7v2.6.feature.feature.group"
+  }, {
+    "id" : "org.talend.transform.standard.hl7v2.7.1.feature.feature.group"
+  }, {
+    "id" : "org.talend.transform.standard.hl7v2.7.feature.feature.group"
+  }, {
+    "id" : "org.talend.transform.standard.hl7v2.8.1.feature.feature.group"
+  }, {
+    "id" : "org.talend.transform.standard.hl7v2.8.feature.feature.group"
+  }, {
+    "id" : "org.talend.transform.standard.x12.hipaa.4010.feature.feature.group"
+  }, {
+    "id" : "org.talend.transform.standard.x12.hipaa.5010.feature.feature.group"
   } ]
 }
